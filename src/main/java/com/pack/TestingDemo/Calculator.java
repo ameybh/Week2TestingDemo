@@ -1,0 +1,27 @@
+package com.pack.TestingDemo;
+
+public class Calculator {
+	
+		public int add(int a,int b) 
+		{
+			return a+b;
+		}
+		public int subtract(int a,int b) 
+		{
+			return a-b;
+		}
+		public int multiply(int a,int b) 
+		{
+			return a*b;
+		}
+		public int divide(int a,int b) 
+		{
+			return a/b;
+		}
+		public boolean compare(int a,int b)
+		{
+			if(a==b) return true;
+			else return false;
+			
+		}
+}
